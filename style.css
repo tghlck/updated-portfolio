@@ -1,0 +1,79 @@
+body {
+    height: 100%;
+    position: relative;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  .row.content {height: 450px}
+  
+  .sidenav {
+    padding-top: 20px;
+    height: 100%;
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;  
+  }
+
+  .row.content {
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 4rem;
+    font-size: 3rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.jumbotron {
+    background-image: url(./imgs/studio.jpg);
+    background-size: cover;
+    height: 50vh;
+    border-bottom: #222 2rem solid;
+    
+}
+
+#footer-text {
+    font-size: 60%;
+}
+
+  footer {
+    background-color: #222;
+    color: white;
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #222;
+    border-color: #222;
+  }
+
+ 
